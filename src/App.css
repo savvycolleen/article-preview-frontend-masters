@@ -102,26 +102,24 @@
 @media (min-width: 700px){
   .card{
     display: flex;
-    height: 200px;
-    width: 550px;
-    margin: 10rem auto;
-    font-size: .6rem;
+    height: 350px;
+    max-width: 900px;
+    margin: 20rem auto;
     .card--img{
-      width: 200px;
+      height: 350px;
+      width: 40%;
+      max-width: 100%;
+      object-fit: cover;
       border-radius: 10px 0 0 10px;
     }
-    .container{
-      padding: 1.5rem;
-    }
-    .social{
-      padding: 0 2.5rem 0 0;
-    }
-    .card--info__intro{
-      line-height: 1.25;
+    .column{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
     }
     .share--links{
       height: 50px;
-      bottom: 60px;
+      bottom: 110px;
       right: -75px;
       padding: 0 1rem;
       width: 250px;

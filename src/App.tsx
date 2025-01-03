@@ -5,10 +5,10 @@ function App() {
   return (
     <>
       <Card />
-      <div>
+      <footer>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://savannah-portfolio.netlify.app/">Savannah Acevedo</a>.
-      </div>
+      </footer>
     </>
   )
 }
